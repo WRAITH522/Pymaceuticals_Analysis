@@ -28,16 +28,16 @@ Create a DataFrame of summary statistics. Remember, there is more than one metho
     - Create the first bar chart with the Pandas DataFrame.plot() method.
     - Create the second bar chart with Matplotlib's pyplot methods.
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
-  - Create the first pie chart with the Pandas DataFrame.plot() method.
-  - Create the second pie chart with Matplotlib's pyplot methods.
+    - Create the first pie chart with the Pandas DataFrame.plot() method.
+    - Create the second pie chart with Matplotlib's pyplot methods.
 
 ### Quartiles, Outliers, Box Plots
 1. Calculates the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin.
 Then, calculates the quartiles and IQR, and determines if there are any potential outliers across all four treatment regimens by using the following substeps:
-  - Creating a grouped DataFrame that shows the last (greatest) time point for each mouse. Merging this grouped DataFrame with the original cleaned DataFrame.
-  - Creating a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
-  - Looping through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Appending the resulting final tumor volumes for each drug to the empty list.
-  - Determining outliers by using the upper and lower bounds, and then printing the results.
+    - Creating a grouped DataFrame that shows the last (greatest) time point for each mouse. Merging this grouped DataFrame with the original cleaned DataFrame.
+    - Creating a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+    - Looping through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Appending the resulting final tumor volumes for each drug to the empty list.
+    - Determining outliers by using the upper and lower bounds, and then printing the results.
 2. Using Matplotlib, generates a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlights any potential outliers in the plot by changing their color and style.
 
 ### Line Plot and Scatter Plot
